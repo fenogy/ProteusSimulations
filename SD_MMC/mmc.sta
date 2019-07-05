@@ -1,0 +1,55 @@
+
+ROM used: 8026 (24%)
+          8026 (24%) including unused fragments
+
+          5 Average locations per line
+          16 Average locations per statement
+
+RAM used: 275 (18%) at main() level
+          378 (25%) worst case
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   96    40   8  D:\Elektronik\PIC\Proje\MMC\SD_MMC\mmc.c
+  327     0   0  C:\Program Files\PICC\devices\18f452.h
+ 1130   459  85  D:\Elektronik\PIC\Proje\MMC\SD_MMC\HDD Driver.c
+----- -----
+ 3106   998 Total
+
+Page ROM  %  RAM  Functions:
+---- --- --- ---  ----------
+0     48   0   1  @delay_ms1
+0    150   1  11  mmc_cmd
+0     86   1   5  set_BLOCKLEN
+0    202   1  13  read_BLOCK
+0   1004   6  67  init_MMC
+0     22   0   0  @const10141
+0     34   0   5  @MUL1616
+0     90   1  14  @MUL3232
+0     74   0   5  @DIV1616
+0   1138   7  24  cluster_addr
+0   1596  10  69  open_file
+0     46   0   0  @const10476
+0   1506   9  29  file_read
+0    158   1   6  strncmp
+0    794   5 119  main
+0     68   0   0  @const10650
+0     20   0   0  @const10656
+0     56   0   0  @const10663
+0     38   0   0  @const10681
+0     28   0   0  @const10687
+0     48   0   0  @const10695
+0     44   0   3  @DIV88
+0    126   1   2  @PRINTF_U_57600_31766_31767
+0     60   0   0  @const10721
+0    172   1   9  @PRINTF_LU_57600_31766_31767
+0     46   0   0  @const10761
+0     44   0   0  @const10778
+0    130   1  13  @DIV3232
+0    194   1  12  @PRINTF_L32U_57600_31766_31767
+
+ Segment   Used  Free
+---------  ----  ----
+00000-00002     4  0  
+00004-07FFE  8022  24742  
+

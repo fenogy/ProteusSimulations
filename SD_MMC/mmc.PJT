@@ -1,0 +1,38 @@
+[PROJECT]
+Target=mmc.HEX
+Development_Mode=2
+Processor=0x452F
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=mmc.c;
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[mmc.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=D:\ELEKTR~1\PIC\Proje\MMC\SD_MMC\mmc.c
+
+[Windows]
+0=0000 D:\ELEKTR~1\PIC\Proje\MMC\SD_MMC\mmc.c 0 0 796 451 3 0
+
+[Units]
+Count=1
+1=D:\Elektronik\PIC\Proje\MMC\SD_MMC\mmc.c (main)
+[Opened Files]
+1=D:\Elektronik\PIC\Proje\MMC\SD_MMC\mmc.c
+2=
